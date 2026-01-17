@@ -54,7 +54,7 @@ export function ProblemSolution() {
                     3. Growing alone leads to doubt and burnout
                 </h3>
                 <p className="text-zinc-400 mb-4">
-                    You cannot build this in isolation. There is no room where faith and ambition coexist. You need a safe space to be authentic.
+                    You cannot build your business or grow your income in isolation. There is no room where faith and ambition coexist. You need a safe space to be authentic.
                 </p>
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
