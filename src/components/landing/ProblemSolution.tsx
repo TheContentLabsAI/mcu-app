@@ -37,12 +37,12 @@ export function ProblemSolution() {
                     2. Powerful Stories, No Structure
                 </h3>
                 <p className="text-zinc-400 mb-4">
-                    Your stories ramble, don't land emotionally, and don't drive action or sales. The story is there—the structure is not.
+                    Your stories ramble. They don't land emotionally. They don't drive action or revenue. The story is there. The structure is not.
                 </p>
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                        We teach you how to turn raw life experience into a clear, compelling framework that builds authority and revenue.
+                        Turn raw life experience into a clear framework. Build authority. Drive revenue.
                     </p>
                 </div>
             </StaggerItem>
@@ -52,12 +52,12 @@ export function ProblemSolution() {
                     3. Growing alone leads to doubt and burnout
                 </h3>
                 <p className="text-zinc-400 mb-4">
-                    There’s no room where faith and ambition coexist, and no safe space to be authentic.
+                    You cannot build this in isolation. There is no room where faith and ambition coexist. You need a safe space to be authentic.
                 </p>
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                        A high-trust, faith-centered room where you build your story <em>together</em>.
+                        A high-trust, faith-centered room. Build your story together. Not alone.
                     </p>
                 </div>
             </StaggerItem>
@@ -67,12 +67,12 @@ export function ProblemSolution() {
                     4. Your message gets drowned out
                 </h3>
                 <p className="text-zinc-400 mb-4">
-                    In a flooded world, generic brands fade away. People trust stories. Stories create connection. Connection drives action.
+                    Generic brands fade away. People trust stories. Stories create connection. Connection drives action.
                 </p>
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                         Authentic storytelling creates emotional connection and differentiation that no AI can replicate.
+                         Authentic emotional connection. No AI can replicate your humanity.
                     </p>
                 </div>
             </StaggerItem>
