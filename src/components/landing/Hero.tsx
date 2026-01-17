@@ -10,19 +10,19 @@ export function Hero() {
 
       <div className="container relative z-20 px-4 md:px-6 text-center max-w-5xl mx-auto">
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
-          Orange County, CA • Exclusive 25 Seats
+          Storytellers Mastermind • Orange County, CA • 20 Leaders
         </div>
         
         <ScrollReveal width="100%">
             <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight leading-none mb-6 text-white">
-            You’re a <span className="text-primary text-glow">Faith-Driven Leader</span> Growing Your Vision. <br className="hidden md:block" />
-            This Is The Room Made For You.
+            For Faith-Driven Leaders Who Are Ready to <span className="text-primary text-glow">Master Their Story</span> and Expand Their Vision.
             </h1>
         </ScrollReveal>
 
         <ScrollReveal width="100%" delay={0.2}>
             <p className="text-lg md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed font-light">
-            25 leaders. One transformational weekend. One room that unlocks the power of your story.
+            20 leaders. One transformational weekend. <br className="hidden md:block"/>
+            It's time to step into the room that unlocks your voice.
             </p>
         </ScrollReveal>
 

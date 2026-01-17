@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import { Navbar } from "@/components/landing/Navbar";
 
-// Placeholder Whop URL
-const WHOP_URL = process.env.NEXT_PUBLIC_WHOP_URL || "#";
+// Fanbasis URL from env
+const FANBASIS_URL = process.env.NEXT_PUBLIC_FANBASIS_URL || "#";
 
 export default function SuccessPage() {
   return (
@@ -31,12 +31,12 @@ export default function SuccessPage() {
                 Final Step: Secure Your Ticket
             </p>
             <Button size="lg" className="w-full text-lg font-bold uppercase py-6 bg-primary text-black hover:bg-primary/90 shadow-[0_0_20px_rgba(255,204,0,0.4)]" asChild>
-                <Link href={WHOP_URL}>
+                <Link href={FANBASIS_URL}>
                     Complete Registration
                 </Link>
             </Button>
             <p className="text-xs text-zinc-500 mt-4">
-                You will be redirected to our secure payment portal (Whop).
+                You will be redirected to our secure payment portal.
             </p>
         </div>
       </div>

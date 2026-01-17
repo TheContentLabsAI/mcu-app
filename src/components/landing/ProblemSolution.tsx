@@ -18,7 +18,7 @@ export function ProblemSolution() {
         <StaggerContainer className="grid gap-6">
             <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
-                    1. You're Called, But Can't Articulate It
+                    1. You feel called, but you can’t articulate it.
                 </h3>
                 <p className="text-zinc-400 mb-4">
                     Most faith-driven leaders feel the calling but struggle to communicate who they are and why it matters. 
@@ -49,25 +49,25 @@ export function ProblemSolution() {
 
             <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
-                    3. Isolated & Unsupported
+                    3. Growing alone leads to doubt and burnout
                 </h3>
                 <p className="text-zinc-400 mb-4">
-                    Growing alone leads to doubt and burnout. There’s no room where faith and ambition coexist, and no safe space to be authentic.
+                    There’s no room where faith and ambition coexist, and no safe space to be authentic.
                 </p>
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                        A high-trust, faith-centered room where you build your story <em>with</em> community, not in isolation.
+                        A high-trust, faith-centered room where you build your story <em>together</em>.
                     </p>
                 </div>
             </StaggerItem>
             
              <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
-                    4. Drowned Out by AI & Noise
+                    4. Your message gets drowned out
                 </h3>
                 <p className="text-zinc-400 mb-4">
-                    In a flooded world, personal brands feel generic. Influence feels forced. What cuts through isn't tactics—it's humanity.
+                    In a flooded world, generic brands fade away. People trust stories. Stories create connection. Connection drives action.
                 </p>
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>

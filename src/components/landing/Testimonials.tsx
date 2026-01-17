@@ -15,10 +15,10 @@ const TESTIMONIAL_VIDEOS = [
     videoUrl: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768625997/Alexis_dl0g6f.mp4"
   },
   {
-    name: "Sarah M.",
-    role: "Public Speaker",
-    thumbnail: "/images/testimonials/sarah.jpg", // Placeholder
-    videoUrl: "https://res.cloudinary.com/demo/video/upload/v1664053611/branding_video.mp4" // Revert to generic demo
+    name: "Javi Guillen",
+    role: "Roofing Entrepreneur",
+    thumbnail: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768626457/Javi_nuhv1d.jpg",
+    videoUrl: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768626457/Javi_nuhv1d.mp4"
   },
   {
     name: "David K.",

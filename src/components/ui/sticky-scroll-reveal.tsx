@@ -96,17 +96,17 @@ export const StickyScroll = ({
                )}
 
                {/* Image Card */}
-               <div className="w-full aspect-video md:aspect-[16/9] relative overflow-hidden rounded-lg shadow-2xl bg-zinc-900/50">
+               <div className="w-full aspect-video md:aspect-[16/9] relative overflow-hidden rounded-xl shadow-2xl bg-zinc-900/50 border border-zinc-800/50">
                     {/* Render content (image) directly here */}
                     {item.content}
                </div>
 
                {/* Text Content */}
                <div className="max-w-xl">
-                    <h3 className="text-3xl md:text-4xl font-bold font-heading text-white mb-4 tracking-tight leading-tight">
+                    <h3 className="text-3xl md:text-5xl font-bold font-heading text-white mb-6 uppercase leading-tight">
                         {item.title}
                     </h3>
-                    <p className="text-lg md:text-xl text-zinc-400 leading-relaxed font-light tracking-wide">
+                    <p className="text-lg md:text-xl text-zinc-300 leading-relaxed tracking-wide font-light">
                         {item.description}
                     </p>
                </div>

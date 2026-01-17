@@ -13,26 +13,26 @@ export function WhoIsThisFor() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Faith-driven leaders (entrepreneurs, content creators, speakers) looking to collaborate, build teams, and create a winning mindset.</p>
+                    <p className="text-zinc-300">Faith-driven leaders looking to build teams and a winning mindset.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Those looking for clarity & confidence in communication with structure and practical tools, ready to step out of their comfort zone.</p>
+                    <p className="text-zinc-300">Those seeking clarity, structure, and practical tools for communication.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">People who want to belong in a room of authenticity and legends, building genuine community.</p>
+                    <p className="text-zinc-300">People who want to belong in a room of authenticity and legends.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Those looking to drive sales and grow their personal brand using their unique story as the key authority builder.</p>
+                    <p className="text-zinc-300">Entrepreneurs ready to drive sales and grow their personal brand.</p>
+                </div>
+                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800 md:col-span-2">
+                    <Check className="text-primary w-6 h-6 flex-shrink-0" />
+                    <p className="text-zinc-300 font-bold">You operate out of faith instead of fear.</p>
                 </div>
             </div>
-            <div className="text-center mt-8">
-                 <p className="text-lg text-white font-medium italic">
-                    "You operate out of faith with an optimistic mindset believing that all things are possible."
-                </p>
-            </div>
+
         </div>
 
         {/* WHO IT IS NOT FOR */}
