@@ -2,6 +2,8 @@ import { Badge } from "@/components/ui/badge";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const content = [
   // DAY 1
@@ -173,6 +175,14 @@ export function Itinerary() {
                     <div>Connect Story to Mission</div>
                     <div>Drive Sales w/ Story</div>
                 </div>
+                </div>
+            </div>
+            <div className="mt-12 text-center">
+                 <Link href="/register">
+                    <Button size="lg" className="h-14 px-8 text-lg font-bold uppercase bg-primary text-black hover:bg-yellow-400 hover:scale-105 transition-all shadow-[0_0_20px_rgba(255,204,0,0.3)]">
+                        Get Your Ticket Now
+                    </Button>
+                </Link>
             </div>
         </ScrollReveal>
       </div>

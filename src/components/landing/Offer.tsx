@@ -15,11 +15,10 @@ export function Offer() {
             The Invitation
           </Badge>
           <h2 className="font-heading text-4xl md:text-6xl font-bold uppercase mb-6 text-white">
-            The Room Is <span className="text-primary text-glow">Waiting</span> For You
+            Unlock Your <span className="text-primary text-glow">Access</span>
           </h2>
           <p className="text-xl text-zinc-400 mb-8 max-w-2xl mx-auto">
             This isn't just an event. It's the beginning of your new story. 
-            Secure your place among 20 faith-driven leaders.
           </p>
         </div>
 
@@ -90,9 +89,12 @@ export function Offer() {
                     </li>
                 </ul>
 
-                <Button size="lg" className="w-full h-14 text-lg font-bold uppercase bg-primary text-black hover:bg-yellow-400 hover:scale-[1.02] transition-all shadow-[0_0_20px_rgba(255,204,0,0.3)] mt-8" asChild>
+                <p className="text-center font-bold text-xl text-white mb-4 mt-8">
+                    The Room Is Waiting For You
+                </p>
+                <Button size="lg" className="w-full h-14 text-lg font-bold uppercase bg-primary text-black hover:bg-yellow-400 hover:scale-[1.02] transition-all shadow-[0_0_20px_rgba(255,204,0,0.3)]" asChild>
                     <Link href="/register">
-                    Secure My Spot
+                    Get Your Ticket Now
                     </Link>
                 </Button>
                 <p className="text-center text-xs text-zinc-600 mt-4">

@@ -10,7 +10,7 @@ export function Hero() {
 
       <div className="container relative z-20 px-4 md:px-6 text-center max-w-7xl mx-auto">
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
-          Storytellers Mastermind • Orange County, CA • 20 Leaders
+          MCU Storytellers Mastermind • Orange County, CA • 20 Leaders
         </div>
         
         <ScrollReveal width="100%">
@@ -22,8 +22,7 @@ export function Hero() {
 
         <ScrollReveal width="100%" delay={0.2}>
             <p className="text-lg md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed font-light">
-            20 leaders. One transformational weekend. <br className="hidden md:block"/>
-            It's time to step into the room that unlocks your voice.
+            20 leaders. One transformation weekend. One room that unlocks the power of your story.
             </p>
         </ScrollReveal>
 
@@ -45,7 +44,7 @@ export function Hero() {
             <div className="flex flex-col items-center gap-4">
             <Button size="lg" className="h-14 px-8 text-lg font-bold uppercase bg-primary text-black hover:bg-yellow-400 hover:scale-105 transition-all shadow-[0_0_20px_rgba(255,204,0,0.3)]" asChild>
                 <Link href="/register">
-                Secure My Spot
+                Get Your Ticket Now
                 </Link>
             </Button>
             <p className="text-xs md:text-sm text-zinc-500 font-medium tracking-wide uppercase">

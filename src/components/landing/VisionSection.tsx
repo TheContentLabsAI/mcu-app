@@ -16,21 +16,20 @@ export function VisionSection() {
             <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-8">
                 Start With <span className="text-primary italic">Why</span>
             </h2>
-            <p className="text-xl text-zinc-300 leading-relaxed mb-8">
-                This exists to create a group of the most powerful voices and stories in our generation. 
-                A movement of faith-driven people amplifying their message, bringing people closer to God, 
-                and building loving friendships that support each other's vision.
-            </p>
-            <div className="p-8 border border-zinc-800 bg-zinc-900/50 rounded-xl relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-1 h-full bg-primary" />
-                <p className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
-                    "MCU Avengers Assemble = MCU Speakers Assemble"
-                </p>
-                <p className="text-zinc-400 text-lg leading-relaxed">
-                    We drive abundance by being generous with our gifts. We transform into our authentic selves, 
-                    build self-worth, and become leaders who create more leaders.
-                </p>
-            </div>
+                <ul className="text-left space-y-4 mb-6 text-zinc-300">
+                    <li className="flex gap-3"><span className="text-primary">•</span> Create a group of the most powerful voices and stories in our generation.</li>
+                    <li className="flex gap-3"><span className="text-primary">•</span> Build a platform that amplifies faith-driven messages.</li>
+                    <li className="flex gap-3"><span className="text-primary">•</span> Bring people closer to God, create loving friendships, and support each other's vision.</li>
+                    <li className="flex gap-3"><span className="text-primary">•</span> Drive abundance through generosity with gifts.</li>
+                    <li className="flex gap-3"><span className="text-primary">•</span> Transform into authentic selves, build self-worth, and create belonging.</li>
+                    <li className="flex gap-3"><span className="text-primary">•</span> Build leaders who create more leaders.</li>
+                </ul>
+                <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-lg text-left">
+                    <p className="font-heading text-xl text-primary mb-2 uppercase font-bold">The Vision</p>
+                    <p className="text-zinc-400 text-sm leading-relaxed">
+                        To build a connected environment where ideas and wisdom are shared with generosity, creating abundance in finances and relationships through the power of storytelling.
+                    </p>
+                </div>
             </div>
         </ScrollReveal>
 
@@ -53,21 +52,26 @@ export function VisionSection() {
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                     </div>
                     <h3 className="font-heading text-2xl md:text-3xl font-bold uppercase text-white">Why Your Story Matters</h3>
-                    <p className="text-zinc-200 text-lg font-medium leading-relaxed border-l-2 border-primary pl-4">
-                        You don’t need to be a public speaker, but you do need to step into the leader you were called to be.
-                    </p>
-                    <ul className="space-y-4 text-zinc-400 mt-4">
+                    
+                    {/* Unmissable Objection Handling */}
+                    <div className="bg-primary/10 border-l-4 border-primary p-4 my-2">
+                        <p className="text-white text-lg md:text-xl font-bold leading-tight">
+                            You don’t need to be a public speaker, but you do need to step into the leader you were called to be.
+                        </p>
+                    </div>
+
+                    <ul className="space-y-4 text-zinc-400 mt-6">
                         <li className="flex items-start gap-3">
                             <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> drives sales and revenue.</span>
                         </li>
                         <li className="flex items-start gap-3">
-                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> builds your personal brand.</span>
+                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> builds your influential personal brand.</span>
                         </li>
                         <li className="flex items-start gap-3">
-                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> helps you stand out in a noisy market.</span>
+                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> helps you stand out in a world full of sameness.</span>
                         </li>
                          <li className="flex items-start gap-3">
-                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> supports the vision God gave you.</span>
+                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> helps you fulfill the vision God gave you.</span>
                         </li>
                     </ul>
                 </div>

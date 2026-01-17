@@ -1,4 +1,6 @@
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function ProblemSolution() {
   return (
@@ -27,7 +29,7 @@ export function ProblemSolution() {
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                        We help you uncover, structure, and deliver your story with clarity, confidence, and conviction.
+                        We give you structure, clarity, and confidence.
                     </p>
                 </div>
             </StaggerItem>
@@ -42,7 +44,7 @@ export function ProblemSolution() {
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                        Turn raw life experience into a clear framework. Build authority. Drive revenue.
+                        Frameworks that build authority and drive revenue.
                     </p>
                 </div>
             </StaggerItem>
@@ -57,22 +59,22 @@ export function ProblemSolution() {
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                        A high-trust, faith-centered room. Build your story together. Not alone.
+                        A high-trust community room.
                     </p>
                 </div>
             </StaggerItem>
             
              <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
-                    4. Your message gets drowned out
+                    4. Drowned out by noise and sameness
                 </h3>
                 <p className="text-zinc-400 mb-4">
-                    Generic brands fade away. People trust stories. Stories create connection. Connection drives action.
+                    Generic brands fade away. People trust stories. Authenticity differentiates you.
                 </p>
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                         Authentic emotional connection. No AI can replicate your humanity.
+                         Authentic emotional connection. No one can replicate your humanity.
                     </p>
                 </div>
             </StaggerItem>
@@ -84,6 +86,13 @@ export function ProblemSolution() {
                 You’re not lacking potential. <br/>
                 You’re lacking <span className="text-primary font-bold">clarity, structure, community, and confidence.</span>
             </p>
+            <div className="mt-8">
+                <Link href="/register">
+                    <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-black uppercase font-bold tracking-wider">
+                        Get Your Ticket Now
+                    </Button>
+                </Link>
+            </div>
         </div>
       </div>
     </section>

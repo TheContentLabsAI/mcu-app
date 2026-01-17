@@ -13,19 +13,19 @@ export function WhoIsThisFor() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Faith-driven leaders looking to build teams and a winning mindset.</p>
+                    <p className="text-zinc-300">Faith-driven leaders seeking clarity and practical tools.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Those seeking clarity, structure, and practical tools for communication.</p>
+                    <p className="text-zinc-300">Entrepreneurs ready to drive sales through story.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">People who want to belong in a room of authenticity and legends.</p>
+                    <p className="text-zinc-300">Content creators who want structured communication.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Entrepreneurs ready to drive sales and grow their personal brand.</p>
+                    <p className="text-zinc-300">Speakers stepping out of their comfort zone.</p>
                 </div>
                  <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800 md:col-span-2">
                     <Check className="text-primary w-6 h-6 flex-shrink-0" />
