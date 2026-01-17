@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import { Navbar } from "@/components/landing/Navbar";
 
-// Fanbasis URL from env
-const FANBASIS_URL = process.env.NEXT_PUBLIC_FANBASIS_URL || "#";
+// Fanbasis URL from env with fallback for safety
+const FANBASIS_URL = process.env.NEXT_PUBLIC_FANBASIS_URL || "https://www.fanbasis.com/agency-checkout/eliamfuentes/nxQrE";
 
 export default function SuccessPage() {
   return (
