@@ -8,13 +8,13 @@ export function Hero() {
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 blur-[120px] rounded-full pointer-events-none" />
 
-      <div className="container relative z-20 px-4 md:px-6 text-center max-w-5xl mx-auto">
+      <div className="container relative z-20 px-4 md:px-6 text-center max-w-7xl mx-auto">
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
           Storytellers Mastermind • Orange County, CA • 20 Leaders
         </div>
         
         <ScrollReveal width="100%">
-            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight leading-none mb-6 text-white">
+            <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-bold uppercase tracking-tight leading-none mb-6 text-white max-w-6xl mx-auto">
             Master Your Story. <span className="text-primary text-glow">Expand Your Vision.</span> <br className="hidden md:block" />
             The Room For Faith-Driven Leaders.
             </h1>
