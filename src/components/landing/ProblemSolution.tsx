@@ -1,0 +1,89 @@
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+
+export function ProblemSolution() {
+  return (
+    <section className="py-24 bg-zinc-950 border-b border-zinc-900">
+      <div className="container px-4 md:px-6 mx-auto max-w-4xl">
+        <div className="text-center mb-16">
+          <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-6 text-white">
+            The 4 Core <span className="text-primary">Problems</span> We Save You From
+          </h2>
+          <p className="text-xl text-muted-foreground">
+            We know what's holding you back. We designed this room to solve it.
+          </p>
+        </div>
+
+        <div className="grid gap-6">
+            <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+                <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
+                    1. You're Called, But Can't Articulate It
+                </h3>
+                <p className="text-zinc-400 mb-4">
+                    Most faith-driven leaders feel the calling but struggle to communicate who they are and why it matters. 
+                    They have the vision, but not the language.
+                </p>
+                <div className="bg-primary/10 p-4 rounded border border-primary/20">
+                    <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
+                    <p className="text-white text-sm mt-1">
+                        We help you uncover, structure, and deliver your story with clarity, confidence, and conviction.
+                    </p>
+                </div>
+            </div>
+
+            <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+                <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
+                    2. Powerful Stories, No Structure
+                </h3>
+                <p className="text-zinc-400 mb-4">
+                    Your stories ramble, don't land emotionally, and don't drive action or sales. The story is there—the structure is not.
+                </p>
+                <div className="bg-primary/10 p-4 rounded border border-primary/20">
+                    <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
+                    <p className="text-white text-sm mt-1">
+                        We teach you how to turn raw life experience into a clear, compelling framework that builds authority and revenue.
+                    </p>
+                </div>
+            </div>
+
+            <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+                <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
+                    3. Isolated & Unsupported
+                </h3>
+                <p className="text-zinc-400 mb-4">
+                    Growing alone leads to doubt and burnout. There’s no room where faith and ambition coexist, and no safe space to be authentic.
+                </p>
+                <div className="bg-primary/10 p-4 rounded border border-primary/20">
+                    <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
+                    <p className="text-white text-sm mt-1">
+                        A high-trust, faith-centered room where you build your story <em>with</em> community, not in isolation.
+                    </p>
+                </div>
+            </div>
+            
+             <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+                <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
+                    4. Drowned Out by AI & Noise
+                </h3>
+                <p className="text-zinc-400 mb-4">
+                    In a flooded world, personal brands feel generic. Influence feels forced. What cuts through isn't tactics—it's humanity.
+                </p>
+                <div className="bg-primary/10 p-4 rounded border border-primary/20">
+                    <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
+                    <p className="text-white text-sm mt-1">
+                         Authentic storytelling creates emotional connection and differentiation that no AI can replicate.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div className="mt-16 text-center border-t border-zinc-800 pt-10">
+            <h3 className="font-heading text-2xl font-bold uppercase text-white mb-4">The Throughline</h3>
+            <p className="text-xl text-zinc-300">
+                You’re not lacking potential. <br/>
+                You’re lacking <span className="text-primary font-bold">clarity, structure, community, and confidence.</span>
+            </p>
+        </div>
+      </div>
+    </section>
+  );
+}
