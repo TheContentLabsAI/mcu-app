@@ -48,7 +48,7 @@ export function Offer() {
                         </div>
                         <div>
                             <span className="font-bold text-white block">2 Full Days</span>
-                            <span className="text-sm text-zinc-500">Immersive MCU Mastermind Event</span>
+                            <span className="text-sm text-zinc-500">March 6 & 7 • Immersive Event</span>
                         </div>
                     </li>
                     <li className="flex items-start gap-4 text-zinc-300">

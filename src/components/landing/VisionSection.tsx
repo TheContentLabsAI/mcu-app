@@ -24,17 +24,12 @@ export function VisionSection() {
                     <li className="flex gap-3"><span className="text-primary">•</span> Transform into authentic selves, build self-worth, and create belonging.</li>
                     <li className="flex gap-3"><span className="text-primary">•</span> Build leaders who create more leaders.</li>
                 </ul>
-                <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-lg text-left">
-                    <p className="font-heading text-xl text-primary mb-2 uppercase font-bold">The Vision</p>
-                    <p className="text-zinc-400 text-sm leading-relaxed">
-                        To build a connected environment where ideas and wisdom are shared with generosity, creating abundance in finances and relationships through the power of storytelling.
-                    </p>
-                </div>
+
             </div>
         </ScrollReveal>
 
         {/* The Vision & Story Matters Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mt-12">
             <ScrollReveal variant="slideRight" width="100%">
                 <div className="space-y-6">
                     <h3 className="font-heading text-2xl md:text-3xl font-bold uppercase text-primary">The Vision</h3>
@@ -48,9 +43,6 @@ export function VisionSection() {
             
              <ScrollReveal width="100%" delay={0.2} variant="fade">
                 <div className="space-y-6 bg-zinc-900/80 p-8 rounded-xl border-t border-zinc-800 shadow-2xl relative">
-                     <div className="absolute top-0 right-0 p-4 opacity-10 text-primary">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-                    </div>
                     <h3 className="font-heading text-2xl md:text-3xl font-bold uppercase text-white">Why Your Story Matters</h3>
                     
                     {/* Unmissable Objection Handling */}
@@ -68,7 +60,7 @@ export function VisionSection() {
                             <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> builds your influential personal brand.</span>
                         </li>
                         <li className="flex items-start gap-3">
-                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> helps you stand out in a world full of sameness.</span>
+                            <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> helps you stand out in a world full of AI content.</span>
                         </li>
                          <li className="flex items-start gap-3">
                             <span className="text-primary text-xl mt-[-2px]">•</span> <span><strong>Your story</strong> helps you fulfill the vision God gave you.</span>

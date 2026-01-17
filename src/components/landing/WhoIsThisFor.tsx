@@ -10,26 +10,26 @@ export function WhoIsThisFor() {
             <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-12 text-center text-white">
                 Who This Is <span className="text-primary">For</span>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 gap-6 max-w-4xl mx-auto">
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
-                    <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Faith-driven leaders seeking clarity and practical tools.</p>
+                    <Check className="text-primary w-6 h-6 flex-shrink-0 mt-1" />
+                    <p className="text-zinc-300 text-lg">You're growing as a faith-driven leader who is an entrepreneur, content creator, or speaker looking to collaborate with others, build team and create a winning mindset.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
-                    <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Entrepreneurs ready to drive sales through story.</p>
+                    <Check className="text-primary w-6 h-6 flex-shrink-0 mt-1" />
+                    <p className="text-zinc-300 text-lg">You’re looking for clarity and confidence in your communication with structure and practical tools. Ready to embrace challenges and grow out your comfort zone.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
-                    <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Content creators who want structured communication.</p>
+                    <Check className="text-primary w-6 h-6 flex-shrink-0 mt-1" />
+                    <p className="text-zinc-300 text-lg">You want to belong in a room filled with authenticity and legends in the making, building a genuine community and uplifting each other up.</p>
                 </div>
                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
-                    <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300">Speakers stepping out of their comfort zone.</p>
+                    <Check className="text-primary w-6 h-6 flex-shrink-0 mt-1" />
+                    <p className="text-zinc-300 text-lg">You're looking to drive sales in your business and grow your personal brand and your unique story is the key to making that happen. Positioning you as an authority.</p>
                 </div>
-                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800 md:col-span-2">
-                    <Check className="text-primary w-6 h-6 flex-shrink-0" />
-                    <p className="text-zinc-300 font-bold">You operate out of faith instead of fear.</p>
+                 <div className="flex gap-4 p-6 bg-zinc-900/30 rounded-lg border border-zinc-800">
+                    <Check className="text-primary w-6 h-6 flex-shrink-0 mt-1" />
+                    <p className="text-zinc-300 text-lg font-bold">You’re someone who operates out of faith with an optimistic mindset believing that all things are possible.</p>
                 </div>
             </div>
 

@@ -66,7 +66,7 @@ export function ProblemSolution() {
             
              <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
-                    4. Drowned out by noise and sameness
+                    4. Drowned out by noise and AI content
                 </h3>
                 <p className="text-zinc-400 mb-4">
                     Generic brands fade away. People trust stories. Authenticity differentiates you.

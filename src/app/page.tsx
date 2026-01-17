@@ -7,6 +7,7 @@ import { Itinerary } from "@/components/landing/Itinerary";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { WhoIsThisFor } from "@/components/landing/WhoIsThisFor";
 import { Offer } from "@/components/landing/Offer";
+import { Gallery } from "@/components/landing/Gallery";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <VisionSection />
       <ProblemSolution />
       <WhoIsThisFor />
+      <Gallery />
       <Pillars />
       <Itinerary />
       <Testimonials />

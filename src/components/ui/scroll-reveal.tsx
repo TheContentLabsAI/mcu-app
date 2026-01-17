@@ -10,7 +10,7 @@ interface ScrollRevealProps {
   delay?: number;
   duration?: number;
   width?: "fit-content" | "100%";
-  variant?: "fade" | "slideUp" | "slideRight" | "scale";
+  variant?: "fade" | "slideUp" | "slideRight" | "slideLeft" | "scale";
 }
 
 export function ScrollReveal({
@@ -47,6 +47,10 @@ export function ScrollReveal({
     scale: {
         hidden: { opacity: 0, scale: 0.8 },
         visible: { opacity: 1, scale: 1 },
+    },
+    slideLeft: {
+        hidden: { opacity: 0, x: 50 },
+        visible: { opacity: 1, x: 0 },
     }
   };
 

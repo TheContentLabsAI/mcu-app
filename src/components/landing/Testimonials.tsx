@@ -21,10 +21,38 @@ const TESTIMONIAL_VIDEOS = [
     videoUrl: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768626457/Javi_nuhv1d.mp4"
   },
   {
-    name: "David K.",
-    role: "Sales Executive",
-    thumbnail: "/images/testimonials/david.jpg", // Placeholder
-    videoUrl: "https://res.cloudinary.com/demo/video/upload/v1664053611/branding_video.mp4" 
+    name: "Emmanuel Fabian-Hernandez",
+    role: "Content Creator",
+    thumbnail: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768678233/Emmaneul_Test_vhsv34.jpg",
+    videoUrl: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768678233/Emmaneul_Test_vhsv34.mp4" 
+  }
+];
+
+const TEXT_TESTIMONIALS = [
+  {
+    name: "Adriana Garcia",
+    quote: "The value one gets for the course is amazing! I joined expecting to improve my communication skills, and not only did it help me with that, but it also helped me by providing confidence and understanding. Thankfully, after going through the course and attending most of the zoom calls, I’ve been able to communicate more effectively with intention with my family members and in business matters."
+  },
+  {
+    name: "Sherese Pow",
+    quote: "Communication felt overwhelming. I wanted to be confident but fear often took over. Because my confidence it at HIGH, I am making bigger moves—especially financially. I am showing up differently and it's opening doors. This experience with MCU didn't just improve how I communicate; it changed how I see myself. I am confident, focused, and fearless."
+  },
+  {
+    name: "Andrew Gutierrez",
+    quote: "Before starting MCU, I often found myself rambling and struggling to clearly communicate my message—whether to individuals or larger groups. My delivery felt dry and unengaging. After going through MCU, I’m now able to convey my message clearly and effectively in a way that truly connects with the audience."
+  },
+  {
+    name: "Anna Lum",
+    quote: "Before MCU, I had some communication tools, but there’s been a lot of affirmation and additional tools that Eliam has brought to my awareness. I always know that there’s room for improvement and Eliam has been great in filling in my gaps! As a public speaker, I used to lack structure and direction in what I’m saying."
+  },
+
+  {
+    name: "Alejandra Diaz",
+    quote: "MCU has grounded me in the power of communication – such that it can alter the trajectory of life, and I hold this dearly. We dove into the power of intention, being clear on what I seek to cause and create before even opening my mouth. Reaffirmed the powerful instrument that my voice is, I am excited to take it out into stages across the world."
+  },
+  {
+    name: "Lolita Fernando",
+    quote: "Eliam's workshops always hit home. Every session leaves me feeling renewed, more grounded, and clearer than before. He has a unique way of making each topic feel personal by connecting it to real-life experiences, and that raw honesty is what makes his workshops so powerful and memorable."
   }
 ];
 
@@ -72,20 +100,22 @@ export function Testimonials() {
         </StaggerContainer>
 
         {/* Review Cards */}
-        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-             {[1, 2, 3].map((i) => (
-                <StaggerItem key={i}>
-                    <Card className="bg-background border-zinc-800 h-full">
+        <StaggerContainer className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+             {TEXT_TESTIMONIALS.map((testimonial, i) => (
+                <StaggerItem key={i} className="break-inside-avoid">
+                    <Card className="bg-zinc-900/50 border-zinc-800 h-full hover:border-primary/30 transition-colors">
                         <CardContent className="pt-6">
                             <Quote className="text-primary w-8 h-8 mb-4 opacity-50" />
-                            <p className="text-zinc-300 mb-6 leading-relaxed italic">
-                                "This mastermind changed the way I communicate forever. The clarity and confidence I gained in just two days was worth 10x the investment."
+                            <p className="text-zinc-300 mb-6 leading-relaxed italic text-sm">
+                                "{testimonial.quote}"
                             </p>
                             <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 rounded-full bg-zinc-800" />
+                                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center border border-primary/10">
+                                    <span className="text-primary font-bold text-xs">{testimonial.name.split(' ').map(n => n[0]).join('')}</span>
+                                </div>
                                 <div>
-                                    <p className="text-white font-bold text-sm uppercase">Alumni Name</p>
-                                    <p className="text-zinc-500 text-xs">Coached by Eliam</p>
+                                    <p className="text-white font-bold text-sm uppercase">{testimonial.name}</p>
+                                    <p className="text-zinc-500 text-xs">MCU Alumni</p>
                                 </div>
                             </div>
                         </CardContent>

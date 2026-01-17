@@ -10,19 +10,19 @@ export function Hero() {
 
       <div className="container relative z-20 px-4 md:px-6 text-center max-w-7xl mx-auto">
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
-          MCU Storytellers Mastermind • Orange County, CA • 20 Leaders
+          MCU Storytellers Mastermind • March 6 & 7 • Orange County, CA
         </div>
         
         <ScrollReveal width="100%">
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-bold uppercase tracking-tight leading-none mb-6 text-white max-w-6xl mx-auto">
-            Master Your Story. <span className="text-primary text-glow">Expand Your Vision.</span> <br className="hidden md:block" />
-            The Room For Faith-Driven Leaders.
+            <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold uppercase tracking-tight leading-tight mb-6 text-white max-w-screen-2xl mx-auto">
+            You're a Faith-Driven Leader <span className="text-primary text-glow">Growing Your Vision.</span> <br className="hidden md:block" />
+            This Is The Room Made For You.
             </h1>
         </ScrollReveal>
 
         <ScrollReveal width="100%" delay={0.2}>
             <p className="text-lg md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed font-light">
-            20 leaders. One transformation weekend. One room that unlocks the power of your story.
+            20 leaders. One transformational weekend. One room that unlocks the power of your story.
             </p>
         </ScrollReveal>
 
