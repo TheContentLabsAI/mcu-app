@@ -1,20 +1,22 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 
 export function ProblemSolution() {
   return (
     <section className="py-24 bg-zinc-950 border-b border-zinc-900">
       <div className="container px-4 md:px-6 mx-auto max-w-4xl">
-        <div className="text-center mb-16">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-6 text-white">
-            The 4 Core <span className="text-primary">Problems</span> We Save You From
-          </h2>
-          <p className="text-xl text-muted-foreground">
-            We know what's holding you back. We designed this room to solve it.
-          </p>
-        </div>
+        <ScrollReveal width="100%">
+            <div className="text-center mb-16">
+            <h2 className="font-heading text-3xl md:text-5xl font-bold uppercase mb-6 text-white">
+                The 4 Core <span className="text-primary">Problems</span> We Save You From
+            </h2>
+            <p className="text-xl text-muted-foreground">
+                We know what's holding you back. We designed this room to solve it.
+            </p>
+            </div>
+        </ScrollReveal>
 
-        <div className="grid gap-6">
-            <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+        <StaggerContainer className="grid gap-6">
+            <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
                     1. You're Called, But Can't Articulate It
                 </h3>
@@ -28,9 +30,9 @@ export function ProblemSolution() {
                         We help you uncover, structure, and deliver your story with clarity, confidence, and conviction.
                     </p>
                 </div>
-            </div>
+            </StaggerItem>
 
-            <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+            <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
                     2. Powerful Stories, No Structure
                 </h3>
@@ -43,9 +45,9 @@ export function ProblemSolution() {
                         We teach you how to turn raw life experience into a clear, compelling framework that builds authority and revenue.
                     </p>
                 </div>
-            </div>
+            </StaggerItem>
 
-            <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+            <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
                     3. Isolated & Unsupported
                 </h3>
@@ -58,9 +60,9 @@ export function ProblemSolution() {
                         A high-trust, faith-centered room where you build your story <em>with</em> community, not in isolation.
                     </p>
                 </div>
-            </div>
+            </StaggerItem>
             
-             <div className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8">
+             <StaggerItem className="bg-background border border-zinc-800 rounded-xl p-6 md:p-8 hover:border-primary/30 transition-all">
                 <h3 className="font-heading text-xl md:text-2xl font-bold uppercase text-white mb-4">
                     4. Drowned Out by AI & Noise
                 </h3>
@@ -73,8 +75,8 @@ export function ProblemSolution() {
                          Authentic storytelling creates emotional connection and differentiation that no AI can replicate.
                     </p>
                 </div>
-            </div>
-        </div>
+            </StaggerItem>
+        </StaggerContainer>
 
         <div className="mt-16 text-center border-t border-zinc-800 pt-10">
             <h3 className="font-heading text-2xl font-bold uppercase text-white mb-4">The Throughline</h3>

@@ -18,11 +18,11 @@ export default function SuccessPage() {
         </div>
         
         <h1 className="font-heading text-4xl md:text-5xl font-bold uppercase mb-6 text-white">
-            Application Received
+            Access Granted
         </h1>
         
         <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
-            Your application has been successfully submitted. <br/>
+            Your details have been received. <br/>
             To secure your seat in the room, please complete your registration below.
         </p>
         

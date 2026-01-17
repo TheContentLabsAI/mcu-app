@@ -25,7 +25,7 @@ export function Navbar() {
             </div>
          </Link>
          <Button size="sm" className="font-bold uppercase tracking-wide bg-primary text-black hover:bg-yellow-400" asChild>
-            <Link href="/apply">Apply Now</Link>
+            <Link href="/register">Register Now</Link>
          </Button>
       </div>
     </header>
