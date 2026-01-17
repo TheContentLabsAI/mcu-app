@@ -175,7 +175,6 @@ export function Itinerary() {
                     <div>Connect Story to Mission</div>
                     <div>Drive Sales w/ Story</div>
                 </div>
-                </div>
             </div>
             <div className="mt-12 text-center">
                  <Link href="/register">
