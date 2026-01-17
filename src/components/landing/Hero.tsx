@@ -26,17 +26,15 @@ export function Hero() {
             </p>
         </ScrollReveal>
 
-        {/* VSL Placeholder */}
+        {/* MCU Logo */}
         <ScrollReveal width="100%" delay={0.4} variant="scale">
-            <div className="w-full max-w-4xl mx-auto mb-10 aspect-video bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden shadow-2xl relative group cursor-pointer hover:border-primary/50 transition-all">
-                <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/20 transition-all">
-                    <div className="w-16 h-16 md:w-20 md:h-20 bg-primary/90 rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(255,204,0,0.5)] group-hover:scale-110 transition-transform">
-                        <div className="w-0 h-0 border-l-[20px] md:border-l-[24px] border-l-black border-y-[12px] md:border-y-[16px] border-y-transparent ml-1 md:ml-2" />
-                    </div>
-                </div>
-                <div className="absolute bottom-4 left-4 bg-black/60 px-3 py-1 text-xs font-bold uppercase text-white rounded backdrop-blur-sm">
-                    Watch: A Message from Eliam Fuentes
-                </div>
+            <div className="w-full max-w-[280px] md:max-w-[380px] mx-auto mb-12 relative">
+                <div className="absolute inset-0 bg-primary/20 blur-[60px] rounded-full opacity-60" />
+                <img 
+                    src="/logo.png" 
+                    alt="Master Communicator University" 
+                    className="w-full h-auto relative z-10 drop-shadow-2xl animate-in fade-in zoom-in-50 duration-1000"
+                />
             </div>
         </ScrollReveal>
 
