@@ -15,7 +15,8 @@ export function Hero() {
         
         <ScrollReveal width="100%">
             <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold uppercase tracking-tight leading-none mb-6 text-white">
-            For Faith-Driven Leaders Who Are Ready to <span className="text-primary text-glow">Master Their Story</span> and Expand Their Vision.
+            Master Your Story. <span className="text-primary text-glow">Expand Your Vision.</span> <br className="hidden md:block" />
+            The Room For Faith-Driven Leaders.
             </h1>
         </ScrollReveal>
 
