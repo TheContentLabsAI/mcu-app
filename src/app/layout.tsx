@@ -15,6 +15,9 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "MCU: Storyteller’s Mastermind",
   description: "The room made for faith-driven leaders growing their vision.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
