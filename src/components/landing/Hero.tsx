@@ -48,7 +48,7 @@ export function Hero() {
                 </Link>
             </Button>
             <p className="text-xs md:text-sm text-zinc-500 font-medium tracking-wide uppercase">
-                * Application Required for Entry
+                * Registration Required for Entry
             </p>
             </div>
         </ScrollReveal>

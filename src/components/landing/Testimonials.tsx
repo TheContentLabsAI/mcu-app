@@ -1,11 +1,38 @@
+"use client";
+
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Quote } from "lucide-react";
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/ui/scroll-reveal";
 
+const TESTIMONIAL_VIDEOS = [
+  {
+    name: "Alexis Morgan",
+    role: "Lending & Private Equity",
+    // Cloudinary Trick: Just change .mp4 to .jpg to get the thumbnail automatically!
+    thumbnail: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768625997/Alexis_dl0g6f.jpg", 
+    videoUrl: "https://res.cloudinary.com/dwklqvlag/video/upload/v1768625997/Alexis_dl0g6f.mp4"
+  },
+  {
+    name: "Sarah M.",
+    role: "Public Speaker",
+    thumbnail: "/images/testimonials/sarah.jpg", // Placeholder
+    videoUrl: "https://res.cloudinary.com/demo/video/upload/v1664053611/branding_video.mp4" // Revert to generic demo
+  },
+  {
+    name: "David K.",
+    role: "Sales Executive",
+    thumbnail: "/images/testimonials/david.jpg", // Placeholder
+    videoUrl: "https://res.cloudinary.com/demo/video/upload/v1664053611/branding_video.mp4" 
+  }
+];
+
 export function Testimonials() {
+  const [activeVideo, setActiveVideo] = useState<string | null>(null);
+
   return (
-    <section className="py-24 bg-zinc-950 border-y border-zinc-900">
+    <section className="py-24 bg-zinc-950 border-y border-zinc-900 relative">
       <div className="container px-4 md:px-6 mx-auto">
         <ScrollReveal width="100%">
             <div className="text-center mb-16">
@@ -18,15 +45,27 @@ export function Testimonials() {
 
         {/* Video Placeholders Grid */}
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-            {[1, 2, 3].map((i) => (
-                <StaggerItem key={i} className="aspect-video bg-zinc-900 rounded-xl border border-zinc-800 flex items-center justify-center relative overflow-hidden group cursor-pointer hover:border-primary/50 transition-all">
-                    <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition-colors" />
-                    <div className="w-16 h-16 rounded-full bg-primary/20 backdrop-blur-sm flex items-center justify-center z-10 group-hover:scale-110 transition-transform">
-                        <div className="w-0 h-0 border-l-[20px] border-l-primary border-y-[12px] border-y-transparent ml-1" />
+            {TESTIMONIAL_VIDEOS.map((video, i) => (
+                <StaggerItem 
+                    key={i} 
+                    onClick={() => setActiveVideo(video.videoUrl)}
+                    className="aspect-video bg-zinc-900 rounded-xl border border-zinc-800 flex items-center justify-center relative overflow-hidden group cursor-pointer hover:border-primary/50 transition-all"
+                >
+                    {/* Thumbnail Image */}
+                    <img 
+                        src={video.thumbnail} 
+                        alt={video.name}
+                        className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity"
+                    />
+                    
+                    {/* Play Button Overlay */}
+                    <div className="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center z-10 group-hover:scale-110 transition-transform shadow-[0_0_30px_rgba(255,204,0,0.4)]">
+                        <div className="w-0 h-0 border-l-[20px] border-l-black border-y-[12px] border-y-transparent ml-1" />
                     </div>
+                    
                     <div className="absolute bottom-4 left-4 z-10">
-                        <p className="text-white font-bold uppercase text-sm">Student Name {i}</p>
-                        <p className="text-zinc-400 text-xs">Business Owner</p>
+                        <p className="text-white font-bold uppercase text-sm">{video.name}</p>
+                        <p className="text-zinc-400 text-xs">{video.role}</p>
                     </div>
                 </StaggerItem>
             ))}
@@ -55,6 +94,31 @@ export function Testimonials() {
              ))}
         </StaggerContainer>
       </div>
+
+      {/* Video Modal Overlay */}
+      {activeVideo && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md animate-in fade-in duration-300">
+            {/* Close Button or Click Outside */}
+            <div className="absolute inset-0" onClick={() => setActiveVideo(null)} />
+            
+            <div className="relative w-full max-w-5xl aspect-video bg-black rounded-xl overflow-hidden shadow-2xl border border-zinc-800 animate-in zoom-in-95 duration-300">
+                <button 
+                    onClick={() => setActiveVideo(null)}
+                    className="absolute top-4 right-4 z-20 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+                
+                <video 
+                    src={activeVideo} 
+                    className="w-full h-full object-contain"
+                    controls 
+                    autoPlay 
+                    playsInline
+                />
+            </div>
+        </div>
+      )}
     </section>
   );
 }

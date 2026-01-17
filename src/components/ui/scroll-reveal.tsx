@@ -106,7 +106,7 @@ export function StaggerContainer({ children, className, staggerDelay = 0.1 }: { 
     );    
 }
 
-export function StaggerItem({ children, className, variant="slideUp" }: { children: React.ReactNode; className?: string, variant?: "slideUp" | "fade" }) {
+export function StaggerItem({ children, className, variant="slideUp", ...props }: { children: React.ReactNode; className?: string, variant?: "slideUp" | "fade" } & React.ComponentProps<typeof motion.div>) {
     const variants = {
         slideUp: {
             hidden: { opacity: 0, y: 20 },
@@ -118,7 +118,7 @@ export function StaggerItem({ children, className, variant="slideUp" }: { childr
         }
     }
     return (
-        <motion.div variants={variants[variant]} className={className}>
+        <motion.div variants={variants[variant]} className={className} {...props}>
             {children}
         </motion.div>
     )
