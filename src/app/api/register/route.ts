@@ -32,10 +32,19 @@ export async function POST(request: Request) {
     }
 
     return NextResponse.json({ success: true });
-  } catch (error) {
+  } catch (error: any) {
     console.error("Proxy Error:", error);
+    
+    // safe error message extraction
+    const errorMessage = error instanceof Error ? error.message : "Unknown error occurred";
+    const errorStack = error instanceof Error ? error.stack : "";
+
     return NextResponse.json(
-      { error: "Failed to submit application" },
+      { 
+        error: "Submission Failed", 
+        details: errorMessage,
+        debug_env_n8n: !!process.env.NEXT_PUBLIC_N8N_WEBHOOK_URL // Return true/false if env var exists (don't expose value)
+      },
       { status: 500 }
     );
   }
