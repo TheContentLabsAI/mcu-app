@@ -10,7 +10,7 @@ export function Hero() {
 
       <div className="container relative z-20 px-4 md:px-6 text-center max-w-7xl mx-auto">
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
-          MCU Storytellers Mastermind • March 6 & 7 • Orange County, CA
+          MCU Storytellers Mastermind • March 20 & 21 • Orange County, CA
         </div>
         
         <ScrollReveal width="100%">

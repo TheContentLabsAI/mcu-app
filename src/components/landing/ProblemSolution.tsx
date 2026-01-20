@@ -80,20 +80,7 @@ export function ProblemSolution() {
             </StaggerItem>
         </StaggerContainer>
 
-        <div className="mt-16 text-center border-t border-zinc-800 pt-10">
-            <h3 className="font-heading text-2xl font-bold uppercase text-white mb-4">The Throughline</h3>
-            <p className="text-xl text-zinc-300">
-                You’re not lacking potential. <br/>
-                You’re lacking <span className="text-primary font-bold">clarity, structure, community, and confidence.</span>
-            </p>
-            <div className="mt-8">
-                <Link href="/register">
-                    <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-black uppercase font-bold tracking-wider">
-                        Get Your Ticket Now
-                    </Button>
-                </Link>
-            </div>
-        </div>
+
       </div>
     </section>
   );

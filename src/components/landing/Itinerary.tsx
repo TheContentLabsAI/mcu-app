@@ -86,7 +86,7 @@ export function Itinerary() {
                     <div className="flex items-center justify-between mb-8 pb-6 border-b border-zinc-800">
                          <div>
                             <h3 className="text-3xl font-bold text-white uppercase font-heading">Day 1</h3>
-                            <p className="text-primary font-bold tracking-wide mt-1">March 6</p>
+                            <p className="text-primary font-bold tracking-wide mt-1">March 20</p>
                          </div>
                          <div className="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center border border-zinc-700">
                              <span className="text-xl font-bold text-zinc-500">01</span>
@@ -123,7 +123,7 @@ export function Itinerary() {
                     <div className="flex items-center justify-between mb-8 pb-6 border-b border-zinc-800">
                          <div>
                             <h3 className="text-3xl font-bold text-white uppercase font-heading">Day 2</h3>
-                            <p className="text-primary font-bold tracking-wide mt-1">March 7</p>
+                            <p className="text-primary font-bold tracking-wide mt-1">March 21</p>
                          </div>
                          <div className="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center border border-zinc-700">
                              <span className="text-xl font-bold text-zinc-500">02</span>
