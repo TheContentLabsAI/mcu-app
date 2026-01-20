@@ -59,7 +59,7 @@ export function ProblemSolution() {
                 <div className="bg-primary/10 p-4 rounded border border-primary/20">
                     <span className="text-primary font-bold uppercase text-sm">The Solution:</span>
                     <p className="text-white text-sm mt-1">
-                        A high-trust community room.
+                        A high-trust community room of leaders.
                     </p>
                 </div>
             </StaggerItem>
