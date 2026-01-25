@@ -33,9 +33,20 @@ export function Offer() {
                   <span className="text-6xl font-bold text-white tracking-tighter">497</span>
                   <span className="text-sm font-medium text-zinc-500">/seat</span>
                </div>
-               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-bold uppercase tracking-wide animate-pulse">
-                  <span className="w-2 h-2 rounded-full bg-red-500" />
-                  Only 20 Seats Available
+               <div className="flex flex-col gap-2 w-full max-w-[200px] mt-2 mx-auto">
+                 <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wide text-red-400">
+                    <div className="flex items-center gap-1.5">
+                        <span className="relative flex h-2 w-2">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+                        </span>
+                        <span>17 Spots Left</span>
+                    </div>
+                    <span className="text-zinc-500">Selling Fast</span>
+                 </div>
+                 <div className="h-1.5 w-full bg-zinc-800 rounded-full overflow-hidden border border-zinc-700/50">
+                    <div className="h-full bg-gradient-to-r from-red-600 to-red-500 w-[15%] shadow-[0_0_10px_rgba(239,68,68,0.5)] animate-shimmer" />
+                 </div>
                </div>
             </div>
 

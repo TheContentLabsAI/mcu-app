@@ -4,11 +4,22 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex items-start pt-32 pb-20 md:items-center md:pt-20 md:pb-20 justify-center overflow-hidden bg-background">
+    <section className="relative min-h-[90vh] flex items-center justify-center pt-20 pb-20 overflow-hidden bg-background">
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 blur-[120px] rounded-full pointer-events-none" />
 
-      <div className="container relative z-20 px-4 md:px-6 text-center max-w-7xl mx-auto">
+      <div className="container relative z-20 px-4 md:px-6 flex flex-col items-center text-center max-w-7xl mx-auto">
+        <div className="inline-flex items-center gap-2 mb-8 px-5 py-2.5 rounded-full bg-black/40 border border-white/5 backdrop-blur-md shadow-[0_0_20px_-5px_rgba(239,68,68,0.4)] hover:bg-black/50 transition-all duration-500 group cursor-default animate-in fade-in slide-in-from-top-8 duration-1000 delay-100">
+            <span className="relative flex h-2.5 w-2.5 mr-1">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75 duration-1000"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500 shadow-[0_0_15px_rgba(239,68,68,0.8)]"></span>
+            </span>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] flex items-center gap-2">
+              <span className="text-red-400 drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]">Selling Fast</span>
+              <span className="w-0.5 h-3 bg-white/10 mx-1"></span>
+              <span className="text-white drop-shadow-md">17 Seats Left</span>
+            </span>
+        </div>
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
           MCU Storytellers Mastermind • March 20 & 21 • Orange County, CA
         </div>
