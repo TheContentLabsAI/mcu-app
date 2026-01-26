@@ -72,8 +72,8 @@ export function RegistrationForm() {
           throw new Error("Submission failed");
       }
 
-      // Navigate to success/payment
-      router.push("/success");
+      // Redirect to Whop checkout
+      window.location.href = "https://whop.com/checkout/5GdNz417F87qLHD4m5-Jmbo-Q7eO-OCN4-7N04BzqtZ6qr/";
     } catch (error) {
       console.error("Submission error:", error);
       alert("Something went wrong with the submission. Check console for details.");
