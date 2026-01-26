@@ -17,7 +17,7 @@ export function Hero() {
             <span className="text-xs font-bold uppercase tracking-[0.2em] flex items-center gap-2">
               <span className="text-red-400 drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]">Selling Fast</span>
               <span className="w-0.5 h-3 bg-white/10 mx-1"></span>
-              <span className="text-white drop-shadow-md">17 Seats Left</span>
+              <span className="text-white drop-shadow-md">14 Seats Left</span>
             </span>
         </div>
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
@@ -37,15 +37,23 @@ export function Hero() {
             </p>
         </ScrollReveal>
 
-        {/* MCU Logo */}
+        {/* VSL Video */}
         <ScrollReveal width="100%" delay={0.4} variant="scale">
-            <div className="w-full max-w-[280px] md:max-w-[380px] mx-auto mb-12 relative">
-                <div className="absolute inset-0 bg-primary/20 blur-[60px] rounded-full opacity-60" />
-                <img 
-                    src="/logo.png" 
-                    alt="Master Communicator University" 
-                    className="w-full h-auto relative z-10 drop-shadow-2xl animate-in fade-in zoom-in-50 duration-1000"
-                />
+            <div className="w-full max-w-[900px] mx-auto mb-12 relative">
+                <div className="absolute inset-0 bg-primary/20 blur-[80px] rounded-2xl opacity-60" />
+                <div className="relative z-10 rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(255,204,0,0.2)] backdrop-blur-sm bg-black/20">
+                    <video 
+                        controls
+                        autoPlay
+                        muted
+                        playsInline
+                        className="w-full h-auto"
+                        poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 9'%3E%3Crect fill='%23000' width='16' height='9'/%3E%3C/svg%3E"
+                    >
+                        <source src="https://res.cloudinary.com/dwklqvlag/video/upload/v1769409342/Vsl_Full_xkszcj.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </ScrollReveal>
 

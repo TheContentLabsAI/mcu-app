@@ -40,12 +40,12 @@ export function Offer() {
                           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
                           <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
                         </span>
-                        <span>17 Spots Left</span>
+                        <span>14 Spots Left</span>
                     </div>
                     <span className="text-zinc-500">Selling Fast</span>
                  </div>
                  <div className="h-1.5 w-full bg-zinc-800 rounded-full overflow-hidden border border-zinc-700/50">
-                    <div className="h-full bg-gradient-to-r from-red-600 to-red-500 w-[15%] shadow-[0_0_10px_rgba(239,68,68,0.5)] animate-shimmer" />
+                    <div className="h-full bg-gradient-to-r from-red-600 to-red-500 w-[30%] shadow-[0_0_10px_rgba(239,68,68,0.5)] animate-shimmer" />
                  </div>
                </div>
             </div>
