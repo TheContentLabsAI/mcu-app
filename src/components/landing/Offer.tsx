@@ -40,7 +40,7 @@ export function Offer() {
                           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
                           <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
                         </span>
-                        <span>14 Spots Left</span>
+                        <span>11 Seats Left</span>
                     </div>
                     <span className="text-zinc-500">Selling Fast</span>
                  </div>

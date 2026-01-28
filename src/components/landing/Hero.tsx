@@ -17,7 +17,7 @@ export function Hero() {
             <span className="text-xs font-bold uppercase tracking-[0.2em] flex items-center gap-2">
               <span className="text-red-400 drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]">Selling Fast</span>
               <span className="w-0.5 h-3 bg-white/10 mx-1"></span>
-              <span className="text-white drop-shadow-md">14 Seats Left</span>
+              <span className="text-white drop-shadow-md">11 Seats Left</span>
             </span>
         </div>
         <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs md:text-sm font-semibold tracking-wider uppercase">
